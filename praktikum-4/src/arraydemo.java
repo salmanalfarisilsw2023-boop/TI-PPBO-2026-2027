@@ -8,5 +8,14 @@ public class arraydemo {
         System.out.println("elemen pertama nilai: " + nilai[0]);
         System.out.println("jumlah elemn nilai: " + nilai.length);
         System.out.println("hari kedua: " + namahari[1]);
+
+        System.out.println("---menggunakan for biasa---");
+        for (int i = 0; i < nilai.length; i++) {
+            System.out.println("indeks " + i + ": " + nilai[i]);
+        }
+        System.out.println("---menggunakan enhanced for---");
+        for (int n : nilai) {
+            System.out.println(n);
+        }
     }
 }
