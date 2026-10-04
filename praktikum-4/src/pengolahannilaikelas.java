@@ -13,7 +13,7 @@ public class pengolahannilaikelas {
         int n = input.nextInt();
 
         while (n <= 0) {
-            System.out.print("jumlah Mahasiswa harus lebih dari 0. masukkan kembali");
+            System.out.print("jumlah mahasiswa harus lebih dari 0. masukkan kembali");
             n = input.nextInt();
         }
         int[] nilai = new int[n];
