@@ -1,11 +1,10 @@
 public class methoddemo {
     // method void: tidak mengembalikan nilai apa pun
-    static void sapa() {
-        System.out.println("halo, selamat datang!");
+    static void tampilkanbiodata(String nama, int umur, String kota) {
+        System.out.println(nama + " (" + umur + " tahun) - " + kota);
     }
     public static void main(String[] args) {
-        sapa();
-        sapa();
-        sapa();
+        // panggil pada method main:
+        tampilkanbiodata("budi", 20, "bandung");
     }
 }
