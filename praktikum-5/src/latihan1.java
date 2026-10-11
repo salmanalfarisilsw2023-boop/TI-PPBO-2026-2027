@@ -1,4 +1,4 @@
-public class luaspersegipanjang {
+public class latihan1 {
     static double luaspersegipanjang(double p, double l) {
         return p * l;
     }
