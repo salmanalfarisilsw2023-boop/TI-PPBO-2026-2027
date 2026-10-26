@@ -1,4 +1,4 @@
-class mahasiswa {
+public class mahasiswa {
     String nama;
     String nim;
     double ipk;
@@ -8,10 +8,9 @@ class mahasiswa {
         nim = "-";
         ipk = 0.0;
     }
-
-    public mahasiswa(String namaAwal, String nimawal, double ipkawal) {
-        nama = namaAwal;
-        nim = nimawal;
-        ipk = ipkawal;
+    public mahasiswa(String nama, String nim, double ipk) {
+        this.nama = nama; // this.nama = atribut, nama = parameter
+        this.nim = nim;
+        this.ipk = ipk;
     }
 }
