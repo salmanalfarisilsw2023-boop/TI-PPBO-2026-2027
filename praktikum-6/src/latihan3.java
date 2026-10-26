@@ -1,8 +1,8 @@
-class Produk {
+class produk {
     String namaProduk;
     double harga;
 
-    public Produk(String namaProduk, double harga) {
+    public produk(String namaProduk, double harga) {
         this.namaProduk = namaProduk;
         this.harga = harga;
     }
@@ -15,7 +15,7 @@ class Produk {
 
 public class latihan3 {
     public static void main(String[] args) {
-        Produk p1 = new Produk("Laptop LOQ", 15000000);
+        produk p1 = new produk("Laptop LOQ", 15000000);
 
         double batas = 10000000;
         System.out.println("Apakah " + p1.namaProduk + " mahal (di atas " + batas + ")? " + p1.isMahal(batas));
